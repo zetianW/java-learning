@@ -19,6 +19,10 @@ public class EmployeeSort {
         staff[0] = new Employee("Harry",35000);
         staff[1] = new Employee("Carl",75000);
         staff[2] = new Employee("Tony",38000);
+        /**
+         * Arrays.sort(Object[] objs)方法
+         * 它内部必须把Object数组里面强制转换为Comparable类型，才可以调用comparaTo()方法。
+         */
         Arrays.sort(staff);
         /**
          * 打印出所有关于员工信息
