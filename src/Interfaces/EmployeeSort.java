@@ -19,9 +19,6 @@ public class EmployeeSort {
         staff[0] = new Employee("Harry",35000);
         staff[1] = new Employee("Carl",75000);
         staff[2] = new Employee("Tony",38000);
-        /**
-         *  //对staff进行从小到大的排序功能的接口。
-         */
         Arrays.sort(staff);
         /**
          * 打印出所有关于员工信息
