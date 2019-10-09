@@ -1,4 +1,4 @@
-package Equals;
+package equals;
 
 /**
  * Description

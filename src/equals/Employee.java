@@ -1,4 +1,4 @@
-package Equals;
+package equals;
 
 import java.time.LocalDate;
 import java.util.Objects;
