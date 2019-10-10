@@ -1,3 +1,5 @@
+package com.zetian.learned.book;
+
 public class MyMath {
     public static int div(int x,int y) throws Exception {
         int result=0;

@@ -1,3 +1,5 @@
+package com.zetian.learned.book;
+
 public class TestArrays {
     public static void main(String[] args) {
         int[] index = new int[4];

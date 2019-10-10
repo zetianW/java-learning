@@ -1,5 +1,7 @@
 package com.zetian.learned.book;
 
+import com.zetian.learned.book.Book;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +12,7 @@ import java.util.List;
  * @date 2019/09/12
  **/
 
-public class OverrideTest extends Book{
+public class OverrideTest extends Book {
 
     @Override
     public void func(){

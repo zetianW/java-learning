@@ -1,6 +1,7 @@
 package com.zetian.study.equals;
 
-import com.zetian.study.base.EqualsEmployee;
+
+import com.zetian.study.base.Employee;
 
 /**
  * Description 经理
@@ -8,7 +9,7 @@ import com.zetian.study.base.EqualsEmployee;
  * @author Zetian Wang
  * @date 2019/09/26
  **/
-public class Manager extends EqualsEmployee {
+public class Manager extends Employee {
     private double bonus;
     public Manager(String name,double salary,int year,int month,int day){
         super(name,salary,year,month,day);

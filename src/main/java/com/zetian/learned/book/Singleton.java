@@ -1,3 +1,5 @@
+package com.zetian.learned.book;
+
 public class Singleton {
     private static Singleton instance;
 

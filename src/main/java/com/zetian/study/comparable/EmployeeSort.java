@@ -1,7 +1,8 @@
 package com.zetian.study.comparable;
 
 
-import com.zetian.study.base.ComparableEmployee;
+
+import com.zetian.study.base.Employee;
 
 import java.util.Arrays;
 
@@ -18,10 +19,10 @@ public class EmployeeSort {
         /**
          * 定义一个关于三个员工的数组
          */
-        ComparableEmployee[] staff = new ComparableEmployee[3];
-        staff[0] = new ComparableEmployee("Harry",10000);
-        staff[1] = new ComparableEmployee("Carl",75000);
-        staff[2] = new ComparableEmployee("Hany",38000);
+        Employee[] staff = new Employee[3];
+        staff[0] = new Employee("Harry",10000);
+        staff[1] = new Employee("Carl",75000);
+        staff[2] = new Employee("Hany",38000);
 
         staff[0].raiseSalary(30);
         System.out.println(staff[0].getSalary());
@@ -33,7 +34,7 @@ public class EmployeeSort {
         /**
          * 打印出所有关于员工信息
          */
-        for(ComparableEmployee e : staff){
+        for(Employee e : staff){
             System.out.println("name="+e.getName()+",salary="+e.getSalary());
         }
     }

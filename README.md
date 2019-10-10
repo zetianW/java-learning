@@ -1,3 +1,3 @@
-# java-com.zetian.study.learning
+# java-main.java.zetian.study.learning
 Java学习
 ## 简单介绍

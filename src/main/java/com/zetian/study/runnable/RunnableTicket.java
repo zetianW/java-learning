@@ -8,7 +8,7 @@ package com.zetian.study.runnable;
  **/
 public class RunnableTicket {
     public static void main(String[] args) {
-        Runnable.otherThread mt=new Runnable.otherThread();
+        otherThread mt=new otherThread();
         new Thread(mt).start();
         new Thread(mt).start();
         new Thread(mt).start();
