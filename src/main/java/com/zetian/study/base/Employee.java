@@ -11,6 +11,9 @@ import java.util.Objects;
  * @date 2019/10/09
  **/
 public class Employee implements Cloneable, Comparable<Employee> {
+    /**
+     * 员工姓名
+     */
     private String name;
     private double salary;
     private Date hireDay;

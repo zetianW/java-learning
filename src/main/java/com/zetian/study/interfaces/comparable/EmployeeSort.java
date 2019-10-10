@@ -1,4 +1,4 @@
-package com.zetian.study.comparable;
+package com.zetian.study.interfaces.comparable;
 
 
 

@@ -1,15 +1,15 @@
-package com.zetian.study.clone;
+package com.zetian.study.interfaces.clone;
 
 
 import com.zetian.study.base.Employee;
 
 /**
- * Description
+ * Description 员工类的克隆功能
  *
  * @author Zetian Wang
  * @date 2019/10/09
  **/
-public class CloneTest {
+public class EmployeeClone {
     public static void main(String[] args) {
         /**
          * 使用try...catch语句来实现数据的copy；

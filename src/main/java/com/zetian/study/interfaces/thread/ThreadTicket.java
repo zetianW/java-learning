@@ -1,4 +1,4 @@
-package com.zetian.study.runnable;
+package com.zetian.study.interfaces.thread;
 
 /**
  * Description

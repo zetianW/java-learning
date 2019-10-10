@@ -1,4 +1,4 @@
-package com.zetian.study.enums;
+package com.zetian.study.extend.enums;
 
 import org.junit.Test;
 

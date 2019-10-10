@@ -1,4 +1,4 @@
-package com.zetian.study.equals;
+package com.zetian.study.extend.equals;
 
 
 import com.zetian.study.base.Employee;
