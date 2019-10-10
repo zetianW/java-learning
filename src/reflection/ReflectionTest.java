@@ -1,13 +1,9 @@
-package Reflection;
+package reflection;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
-import javax.xml.soap.Name;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.ConcurrentModificationException;
 import java.util.Scanner;
 
 /**
