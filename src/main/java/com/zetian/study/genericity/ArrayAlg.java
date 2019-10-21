@@ -1,5 +1,7 @@
 package com.zetian.study.genericity;
 
+import com.zetian.study.base.PairValue;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,26 +14,26 @@ import java.util.List;
  **/
 public class ArrayAlg {
 
-//    /**
-//     * 字符串数组的计算
-//     * @param a
-//     * @return
-//     */
-//    public static PairValue<String> minmax(String[] a) {
-//        if (a == null || a.length == 0) {
-//            return null;
-//        }
-//        String min = a[0];
-//        String max = a[0];
-//        for (int i = 1; i < a.length; i++) {
-//            if (min.compareTo(a[i]) > 0) {
-//                min = a[i];
-//            }
-//            if (max.compareTo(a[i]) < 0) {
-//                max = a[i];
-//            }
-//        }
-//    }
+    public static PairValue<String> calculationMaxAndMin(String[] arr) {
+
+        PairValue<String> pairValue = new PairValue<String>();
+
+        if (arr == null || arr.length == 0) {
+            return pairValue;
+        }
+
+        //数组排序
+        Arrays.sort(arr);
+        String max = arr[0];
+        String min = arr[arr.length - 1];
+        //把最大最小值添加到“结果保存对象（pairValue）”中
+        List<String> result = new ArrayList<String>();
+        result.add(max);
+        result.add(min);
+        pairValue.setResult(result);
+
+        return pairValue;
+    }
 
     /**
      * 整型数组计算最大数和最小数

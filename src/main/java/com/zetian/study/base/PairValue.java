@@ -1,4 +1,4 @@
-package com.zetian.study.genericity;
+package com.zetian.study.base;
 
 import java.util.List;
 
