@@ -1,11 +1,7 @@
 package com.zetian.tempTest;
 
-import com.zetian.study.base.PairValueArr;
+import com.zetian.study.base.Student;
 import org.junit.Test;
-
-import java.util.ArrayList;
-
-import static org.junit.Assert.*;
 
 /**
  * Description

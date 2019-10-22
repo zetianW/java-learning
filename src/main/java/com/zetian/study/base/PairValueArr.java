@@ -1,7 +1,5 @@
 package com.zetian.study.base;
 
-import com.zetian.tempTest.Student;
-
 /**
  * Description   1.保存两个值
  * 2.获取最大值最小值(两个)。

@@ -1,4 +1,4 @@
-package com.zetian.tempTest;
+package com.zetian.study.base;
 
 /**
  * Description 学生
@@ -35,6 +35,32 @@ public class Student {
     }
 
     /**
+     * 身高
+     */
+    public String height;
+
+    public void setHeight(String height) {
+        this.height = height;
+    }
+
+    public String getHeight() {
+        return height;
+    }
+
+    /**
+     * 体重
+     */
+    public String weight;
+
+    public void setWeight(String weight) {
+        this.weight = weight;
+    }
+
+    public String getWeight() {
+        return weight;
+    }
+
+    /**
      * 成绩（保存数学，语文，英语三门成绩）
      */
     private String[] score;
@@ -46,4 +72,5 @@ public class Student {
     public String[] getScore() {
         return score;
     }
+
 }
