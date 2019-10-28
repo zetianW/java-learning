@@ -72,5 +72,4 @@ public class Student {
     public String[] getScore() {
         return score;
     }
-
 }
