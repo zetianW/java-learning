@@ -1,4 +1,4 @@
-package com.zetian.study.map;
+package com.zetian.study.collection;
 
 import java.util.HashMap;
 import com.zetian.study.base.Employee;
@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Description 首先将键/值对添加到映射中，
  * 然后，从映射中删除一个键，同时与之对应的值也被
- *删除。最后修改一个与键对应的值，并且调用get方法查看这个值。
+ *删除。最后修改一个与键对应的值，并且调用get方法查看这个值。"
  * @author Zetian Wang
  * @date 2019/10/25
  **/

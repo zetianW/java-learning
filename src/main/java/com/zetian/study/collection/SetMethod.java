@@ -1,4 +1,4 @@
-package com.zetian.study.set;
+package com.zetian.study.collection;
 
 import java.util.HashSet;
 import java.util.Scanner;
