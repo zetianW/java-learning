@@ -17,16 +17,17 @@ package com.zetian.study.iterator;
  * @date 2019/10/22
  **/
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.*;
 
 
 public class IteratorDemo {
     public static void main(String[] args) {
         method();
         //创建集合对象
-        Collection c = new ArrayList();
+        List<String> c = new ArrayList<String>();
+        List<String> linkedList = new LinkedList<>();
+        Set<String> stringSet = new HashSet<>();
+
         //添加元素
         c.add("hello");
         c.add("world");
@@ -41,13 +42,13 @@ public class IteratorDemo {
 
     private static void method() {
         //创建集合对象
-        Collection c = new ArrayList();
+        List<String> stringList = new ArrayList<String>();
         //添加元素
-        c.add("hello");
-        c.add("world");
-        c.add("w");
+        stringList.add("hello");
+        stringList.add("world");
+        stringList.add("w");
         //获取数组
-        Object[] obj = c.toArray();
+        Object[] obj = stringList.toArray();
         //遍历数组对象
         for (int i = 0; i < obj.length; i++) {
             System.out.println(obj[i]);
