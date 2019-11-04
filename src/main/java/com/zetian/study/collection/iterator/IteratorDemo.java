@@ -1,4 +1,4 @@
-package com.zetian.study.iterator;
+package com.zetian.study.collection.iterator;
 
 /**
  * Description

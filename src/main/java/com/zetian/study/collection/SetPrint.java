@@ -1,8 +1,7 @@
 package com.zetian.study.collection;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
+
 /**
  * Description  从System.in中读取单词，
  * 然后将它们添加到集中，
@@ -11,7 +10,7 @@ import java.util.Set;
  * @author Zetian Wang
  * @date 2019/10/24
  **/
-public class SetMethod {
+public class SetPrint {
     public static void main(String[] args) {
         Set<String> words = new HashSet<>();
         long totalTime = 0;
@@ -30,4 +29,18 @@ public class SetMethod {
             e.printStackTrace();
         }
     }
+//    public static void main(String[] args) {
+//        Map<String, String> stringMap = new HashMap<>();
+//        stringMap.put("key1", "value1");
+//        stringMap.put("key2", "value2");
+//        stringMap.put("key3", "value3");
+//        stringMap.put("key4", "value4");
+//
+//        Set<Map.Entry<String, String>> entrySet = stringMap.entrySet();
+//        Iterator<Map.Entry<String, String>> iterator = entrySet.iterator();
+//        Iterator<String> iterator = entrySet.iterator();
+//        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+//        }
+//    }
 }

@@ -7,4 +7,6 @@ package com.zetian.study.extend;
  * @date 2019/11/01
  **/
 public interface Fruits {
+
+     void eated();//行为名称
 }
