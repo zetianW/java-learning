@@ -11,7 +11,6 @@ import java.util.Map;
  * @date 2019/11/11
  **/
 public class HashMapTraverse {
-
     public static void main(String[] args) {
         /**
          *  创建HashMap对象
