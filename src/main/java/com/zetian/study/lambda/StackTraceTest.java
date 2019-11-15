@@ -1,4 +1,4 @@
-package com.zetian.study;
+package com.zetian.study.lambda;
 
 import java.util.Scanner;
 
