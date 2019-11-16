@@ -10,7 +10,6 @@ public class Animal {
     public void cry() {
         System.out.println("咕咕咕");
     }
-
     protected void eat(String drink) {
         cry();
         System.out.println(drink);

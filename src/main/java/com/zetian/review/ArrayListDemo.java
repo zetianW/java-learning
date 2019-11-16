@@ -18,7 +18,7 @@ public class ArrayListDemo {
          */
         Scanner scanner = new Scanner(System.in);
         /**
-         * 创建ArrayList对象
+         * 创建ArrayList对象/
          */
         List<String> list = new ArrayList<String>();
         System.out.println("输入名称(end结束)");

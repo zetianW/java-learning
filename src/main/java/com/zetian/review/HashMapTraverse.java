@@ -2,6 +2,7 @@ package com.zetian.review;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -15,11 +16,12 @@ public class HashMapTraverse {
         /**
          *  创建HashMap对象
           */
-        HashMap<String, Integer> tempMap = new HashMap<String, Integer>(3);
+        Map<String, Integer> tempMap = new HashMap<String, Integer>(3);
         tempMap.put("a", 2);
         tempMap.put("b", 1);
         tempMap.put("c", 3);
         System.out.println("HashMap遍历");
+
         /**
          *使用Iterator实现hasNext
          */
@@ -30,11 +32,11 @@ public class HashMapTraverse {
             /**
              * 取得key的值
              */
-            Object key = entry.getKey();
+            String key = (String) entry.getKey();
             /**
              * 取得value的值
              */
-            Object value = entry.getValue();
+            Integer value = (Integer)entry.getValue();
             System.out.println("key=" + key + " value=" + value);
         }
     }

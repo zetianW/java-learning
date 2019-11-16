@@ -7,6 +7,7 @@ package com.zetian.review;
  * @date 2019/11/14
  **/
 public class Factorial {
+
     public static void main(String[] args) {
         //对factorial方法进行调用
         factorial(4);
@@ -22,9 +23,7 @@ public class Factorial {
             return 1;
         } else {
             System.out.println(n);
-            /**
-             *  用递归的方法进行阶乘处理
-             */
+            //用递归的方法进行阶乘处理
             int temp = n*factorial(n-1);
             System.out.println(n + "! = " + temp);
             return temp;
