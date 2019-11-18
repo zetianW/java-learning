@@ -1,4 +1,4 @@
-package com.zetian.review;
+package com.zetian.review.judgetwonumber;
 
 /**
  * Description
@@ -6,7 +6,7 @@ package com.zetian.review;
  * @author Zetian Wang
  * @date 2019/11/18
  **/
-public class JudgeTwoNumber {
+public class HardJudge {
     public static void main(String[] args) {
         String str = "123";
         System.out.println(isNumber(str));
@@ -21,3 +21,5 @@ public class JudgeTwoNumber {
         return true;
     }
 }
+
+
