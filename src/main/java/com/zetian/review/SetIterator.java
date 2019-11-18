@@ -16,7 +16,7 @@ public class SetIterator {
         set.add(1);
         set.add(2);
         set.add(9);
-        set.add(3);
+        set.add(89);
         Iterator iterator = set.iterator();
         while (iterator.hasNext()){
             if (iterator.next().equals(2)){
