@@ -20,7 +20,7 @@ public class InputStreamDemo {
                 // 所以想要进行文件读取使用FileInputStream子类
                 InputStream input = new FileInputStream(file);
                 //进行数据读取
-                byte[] data = new byte[15 ];
+                byte[] data = new byte[15];
                 //将内容保存到字节数组中
                 input.read(data);
                 //关闭输入流
