@@ -1,4 +1,4 @@
-package com.zetian.review;
+package com.zetian.review.binarytrees;
 
 import java.util.HashMap;
 import java.util.Iterator;
