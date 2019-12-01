@@ -1,4 +1,6 @@
-package com.zetian.review.intantiation;
+package com.zetian.review.singleton.intantiation;
+
+import com.zetian.review.singleton.intantiation.Instantiation;
 
 /**
  * Description

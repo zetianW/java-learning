@@ -1,4 +1,4 @@
-package com.zetian.review.intantiation;
+package com.zetian.review.singleton.intantiation;
 
 /**
  * Description
