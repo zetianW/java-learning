@@ -1,4 +1,4 @@
-package com.zetian.review.binarytrees;
+package com.zetian.study.base;
 
 /**
  * Description
@@ -15,6 +15,10 @@ public class Book implements Comparable<Book> {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "书名：" + this.title + "价格：" + this.price;
+    }
     @Override
     public int compareTo(Book o) {
         if (this.price > o.price) {
