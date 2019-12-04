@@ -24,13 +24,9 @@ public class Employee implements Cloneable, Comparable<Employee> {
     /**
      * 一般只要是对构造函数进行了重载，必须保留无参构造函数以防万一
      */
-    public Employee() {
-    }
-
-    public Employee(String name, double salary) {
+    public Employee(String name,int salary) {
         this.name = name;
         this.salary = salary;
-        hireDay = new Date();
     }
 
     public Employee(String name, double salary, int year, int month, int day) {
