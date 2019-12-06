@@ -12,7 +12,7 @@ import java.io.OutputStream;
  **/
 public class OutputStreamDemo {
     public static void main(String[] args) {
-        File file = new File("E:"+File.separator+"demo"+File.separator+"testdemo");
+        File file = new File("E:"+File.separator+"demo"+File.separator+"mytest");
         //文件目录不存在
         if(!file.getParentFile().exists()) {
             file.getParentFile().mkdirs();   //创建目录
