@@ -25,9 +25,6 @@ public class IteratorDemo {
         method();
         //创建集合对象
         List<String> c = new ArrayList<String>();
-        List<String> linkedList = new LinkedList<>();
-        Set<String> stringSet = new HashSet<>();
-
         //添加元素
         c.add("hello");
         c.add("world");
