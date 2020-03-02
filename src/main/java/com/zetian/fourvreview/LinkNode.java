@@ -1,17 +1,21 @@
-package com.zetian.review.binarytrees;
+package com.zetian.fourvreview;
+
+import com.zetian.study.base.Book;
+
+import java.util.Arrays;
 
 /**
  * Description
  *
  * @author Zetian Wang
- * @date 2019/11/18
+ * @date 2020/02/18
  **/
-public class BinaryTree {
+public class LinkNode {
 
     private class Node {
-        private Comparable data;  //排序的依据就是Comparable
-        private Node left;   //保存左节点
-        private Node right;   //保存右节点
+        private Comparable data;  //排序的依据 Comparable
+        private Node left;   //左节点
+        private Node right;   //右节点
 
         public Node(Comparable data) {
             this.data = data;
@@ -37,12 +41,13 @@ public class BinaryTree {
             if (this.left != null) {   //表示有左节点
                 this.left.toArrayNode();
             }
-            BinaryTree.this.retData[BinaryTree.this.foot++] = this.data;
+            LinkNode.this.retData[LinkNode.this.foot++] = this.data;
             if (this.right != null) {
-                this.right.toArrayNode(); //右子树输出
+                this.right.toArrayNode(); //表示有右子树
             }
         }
     }
+
     /**
      * 定义根节点
      */
@@ -53,9 +58,10 @@ public class BinaryTree {
     private int count;
     private Object[] retData;
     private int foot;
+
     /**
-     * 进行数据的追加，
-     * 但是所有的Object都必须变为Comparable
+     *
+     * 所有的Object都必须变为Comparable
      *
      * @param obj
      */
@@ -91,4 +97,14 @@ public class BinaryTree {
         this.root.toArrayNode();
         return this.retData;
     }
+
+    public static void main(String[] args) {
+        LinkNode bt = new LinkNode();
+        bt.add(new Book("java", 79.8));
+        bt.add(new Book("建模", 88.8));
+        bt.add(new Book("Android", 99.1));
+        Object[] obj = bt.toArray();
+        System.out.println(Arrays.toString(obj));
+    }
 }
+

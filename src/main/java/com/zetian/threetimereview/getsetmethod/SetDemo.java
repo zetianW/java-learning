@@ -11,14 +11,15 @@ import java.util.Set;
  * @date 2019/12/27
  **/
 public class SetDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Set<String> set = new HashSet<>();
         set.add("w");
         set.add("e");
         set.add("r");
         set.add("t");
+        set.add("b");
         Iterator iterator = set.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(set);
             break;
         }

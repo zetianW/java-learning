@@ -20,20 +20,13 @@ public class OverrideTest extends Book {
     }
 
     public static void main(String[] args) {
-//        Map map = new HashMap();
-//        map.put("name","王泽天");
-//        //key(键),value(值)——键值对
-//        map.put("age","20");
-//
-//        System.out.println(map.get("name"));
 
-
-        List list = new ArrayList();
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
-        list.add("5");
+        List lists = new ArrayList();
+        lists.add("1");
+        lists.add("2");
+        lists.add("3");
+        lists.add("4");
+        lists.add("5");
 
         String[] list2 = new String[5];
         list2[0] = "1";
@@ -41,9 +34,6 @@ public class OverrideTest extends Book {
         list2[2] = "3";
         list2[3] = "4";
         list2[4] = "5";
-//        for (Object o : list) {
-//            System.out.println(o.toString());
-//        }
         for (String s : list2) {
             System.out.println(s);
         }

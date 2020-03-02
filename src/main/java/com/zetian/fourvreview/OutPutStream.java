@@ -1,4 +1,4 @@
-package com.zetian.threetimereview;
+package com.zetian.fourvreview;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -8,11 +8,11 @@ import java.io.OutputStream;
  * Description
  *
  * @author Zetian Wang
- * @date 2019/12/06
+ * @date 2020/03/01
  **/
 public class OutPutStream {
     public static void main(String[] args) {
-        File file = new File("E:" + File.separator + "OutPutDemoStream" + File.separator + "mydemo");
+        File file = new File("E:" + File.separator + "OutPutDemoStream" + File.separator + "wangbaba");
         //判断文件目录是否存在
         if (!file.getParentFile().exists()) {
             //创建目录

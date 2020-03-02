@@ -17,7 +17,6 @@ class Son extends Father {
     protected void sing(String Song) {
         System.out.println("凉凉");
     }
-
     @Override
     public void eat() {
         sing("凉凉");
