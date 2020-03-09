@@ -6,7 +6,7 @@ import java.sql.*;
  * Description
  *
  * @author Zetian Wang
- * @date 2019/09/18
+ * @date 2020/03/06
  **/
 public class DateBaseConnectionPractise {
     private static final String DB_DRIVER = "com.mysql.jdbc.Driver";
@@ -52,7 +52,7 @@ public class DateBaseConnectionPractise {
         final String updateSql = "UPDATE %s SET %s WHERE %s;";
         final String insertSql = "insert into %s (%s) values (%s)";
 
-        DataBaseConnection dataBaseConnection = new DataBaseConnection();
+        DateBaseConnectionPractise dataBaseConnection = new DateBaseConnectionPractise();
         String sql = String.format(insertSql, "math", "one,two", "'world','hello'");
         //String sql = String.format(updateSql, "math", "user_name='root4'", "id=2");
         dataBaseConnection.dbConnection(sql);

@@ -20,7 +20,7 @@ public class OutPutStream {
             try {
                 OutputStream output = new FileOutputStream(file);
                 //创建文件内容
-                String str = "字符流输入的简单例子";
+                String str = "字符流输出的简单例子";
                 //将字符转换为字符数组
                 byte [] all = str.getBytes();
                 //打印出字符串
